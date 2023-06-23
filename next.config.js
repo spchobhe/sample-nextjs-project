@@ -3,8 +3,12 @@ const nextConfig = {
       reactStrictMode: true,
 
        // Add basePath
-        basePath: '/github-pages/',
-      output: 'export'
+        basePath: '/github-pages',
+      output: 'export',
+      images: {
+    loader: "akamai",
+    path: "/github-pages",
+  },
 }
 
 module.exports = nextConfig
