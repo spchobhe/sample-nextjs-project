@@ -3,11 +3,11 @@ const nextConfig = {
       reactStrictMode: true,
 
        // Add basePath
-        basePath: '/github-pages',
+        basePath: '/sample-nextjs-project/',
       output: 'export',
       images: {
     loader: "akamai",
-    path: "/",
+    path: "/sample-nextjs-project/",
   },
 }
 
